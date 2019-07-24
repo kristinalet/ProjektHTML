@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <title>Most</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Preco ludia palia mosty?">
+    <meta name="author" content="Kristina Letkova">
+    <link rel="stylesheet" href="style/Most.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <figure>
+                <img class="logopicture" src="https://www.svgrepo.com/show/2150/japanese-bridge.svg" alt="bridge" height="50" width="50">
+                <h1>MOST</h1>
+            </figure>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="ProfilMost.html">Profil<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="ProjektMost.html">Timeline</a>
+                    </li>
+                </ul>
+                <div class="dropdown">
+                        <button class="btn btn-outline-secondary my-2 my-sm-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Rande
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Rýchle rande</a>
+                          <a class="dropdown-item" href="#">To chce čas</a>
+                          <a class="dropdown-item" href="#">Čaro úspechu</a>
+                        </div>
+                      </div>
+
+                    <div class="query"> 
+                        <input id="search" type="search" name="q" placeholder="" >
+                        <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Hľadaj...</button>
+                    </div>
+                </div>
+        </nav>
+    </header> 
+
+    <div class="content">
+        <main>
+            <section class="timeline">
+                <form id="post_add_form">
+                    <h4>Na tom druhom brehu, prosím nestrácajte nehu.</h4>
+                    <div class="field">
+                        <label for="username">Prezývka</label>
+                        <input type="text" name="username"/>
+                    </div>
+                    <div class="field">
+                        <label for="title">Hlavná myšlienka</label>
+                        <input type="text" name="title" />
+                    </div>
+                    <div class="field">
+                        <textarea id="vytvorit=" rows="3" cols="65" placeholder="Čo ti beží hlavou?"></textarea><br />
+                    </div>
+                    <div class="buttons">
+                        <input type="file" placeholder="Foto" />
+                        <span>
+                            <input type="submit" class="btn btn-outline-dark" value="Submit" />
+                            <input type="reset" class="btn btn-outline-dark" value="Cancel">
+                        </span>
+                    </div>
+                </form>
+                
+                <div class="timeline-content">
+                    <article>
+                        <div class="article-info">
+                            <div class="author">    
+                                <p>
+                                    <img class="avatar" src="http://lorempixel.com/output/abstract-q-c-640-480-3.jpg" alt="Martin Prekop avatar" height="42" width="42">
+                                    <strong>Martin Prekop</strong>
+                                </p>
+                            </div>
+                            <time>16. júla 2019, 21:40</time>
+                        </div>
+                        <h6>Hľadám priateľskú a vtipnú slečnu na zoznámenia. Zn. Dieťa nie je prekážka.</h6>
+                        <img class="article-image" src="http://lorempixel.com/output/people-q-c-640-480-2.jpg" alt="krasavec na bicykli" />  
+                        <ol>
+                            <li>
+                                <strong>Lucia Lucka</strong><h10>   Pekný bicykel.</h10>
+                            </li>
+                            <li>
+                                <strong>Zlatica</strong><h10>   Volaj.</h10>
+                            </li>
+                        </ol>
+                        <textarea id="Napíš mi.=" rows="1" cols="50" placeholder="Napíš mi."></textarea><br />
+                        <input type="submit" class="btn btn-secondary btn-sm" value="submit" />
+                        <select name="paci sa" class="btn btn-outline-dark" id="paci">
+                            <option value="páči sa mi">páči sa mi</option>
+                            <option value="nepáči sa mi">nepáči sa mi</option>
+                            <option value="nevolaj mi">nevolaj mi</option>
+                        </select>        
+                    </article>
+
+                    <article>
+                        <div class="article-info">
+                            <div class="author">    
+                                <p>
+                                    <img class="avatar" src="http://lorempixel.com/output/animals-q-c-640-480-10.jpg" alt="Alena Alena avatar" height="42" width="42">
+                                    <strong>Alena Alena</strong>
+                                </p>
+                            </div>
+                            <time>16. júla 2019, 09:30</time>
+                        </div>
+                        <p>
+                            Vzdelávanie nie je učenie faktov, ale trénovanie mysle, aby myslela. Albert Einstein
+                        </p> 
+                        <textarea id="Napíš mi.=" rows="1" cols="50" placeholder="Napíš mi."></textarea><br />
+                        <input type="submit" class="btn btn-secondary btn-sm" value="submit" />
+                        <select name="paci sa" class="btn btn-outline-dark" id="paci">
+                            <option value="páči sa mi">páči sa mi</option>
+                            <option value="nepáči sa mi">nepáči sa mi</option>
+                            <option value="nevolaj mi">nevolaj mi</option>
+                        </select>
+                    </article>
+
+                    <article>
+                        <div class="article-info">
+                            <div class="author">
+                                <p> 
+                                    <img class="avatar" src="http://lorempixel.com/output/people-q-c-640-480-1.jpg" alt="Zuzana avatar" height="42" width="42" />
+                                    <strong>Zuzana</strong>
+                                </p> 
+                            </div>
+                            <time>15. júla 2019, 22:20</time>
+                        </div>
+                        <h6>Hľadám priateľa na bližšie zoznámenie, ktorý má rád zvieratá.</h6>
+                        <img class="article-image" src="http://lorempixel.com/output/cats-q-c-640-480-9.jpg" alt="macka" />
+                        <ol>
+                            <li>
+                                <strong>Zdeno</strong> <h10>   Preferujem psov? Môže byť? Pošli foto.</h10>
+                            </li>
+                            <li>
+                                <strong>Alžbeta Betuška</strong> <h10>   Pekná cica.</h10>
+                            </li>
+                        </ol>
+                        <textarea id="Napíš mi.=" rows="1" cols="50" placeholder="Napíš mi."></textarea><br />
+                        <input type="submit" class="btn btn-secondary btn-sm" value="submit" />
+                        <select name="paci sa" class="btn btn-outline-dark" id="paci">
+                            <option value="páči sa mi">páči sa mi</option>
+                            <option value="nepáči sa mi">nepáči sa mi</option>
+                            <option value="nevolaj mi">nevolaj mi</option>
+                        </select>
+                    </article>
+
+                    <article>
+                        <div class="article-info">
+                            <div class="author">    
+                                <p>
+                                    <img class="avatar" src="http://lorempixel.com/output/people-q-c-640-480-7.jpg" alt="Margita Vesna avatar" height="42" width="42">
+                                    <strong>Margita Vesna</strong>
+                                </p>
+                            </div>
+                            <time>15. júla 2019, 19:20</time>
+                        </div>
+                        <h6>Kto dnes na kávičku?</h6>
+                        <img class="article-image" src="http://lorempixel.com/output/nightlife-q-c-640-480-4.jpg" alt="Night city" />
+                        <p>
+                            Rozhodnime sa každý sám za seba konať v prospech svojho zdravia a udržateľnosti systému. Rozhodnime sa pre iné štandardy!
+                        </p>  
+                        <ol>
+                            <li>
+                                <strong>Andrej</strong> <h10>   Kde? a kedy?</h10>
+                            </li>
+                        </ol>
+                        <textarea id="Napíš mi.=" rows="1" cols="50" placeholder="Napíš mi."></textarea><br />
+                        <input type="submit" class="btn btn-secondary btn-sm" value="submit" />
+                        <select name="paci sa" class="btn btn-outline-dark" id="paci">
+                            <option value="páči sa mi">páči sa mi</option>
+                            <option value="nepáči sa mi">nepáči sa mi</option>
+                            <option value="nevolaj mi">nevolaj mi</option>
+                        </select>
+                    </article>
+
+                    <article>
+                    <div class="article-info">
+                            <div class="author">    
+                                <p>
+                                    <img class="avatar" src="http://lorempixel.com/output/abstract-q-c-640-480-6.jpg" alt="Medulienka avatar" height="42" width="42">
+                                    <strong>Medulienka</strong>
+                                </p>
+                            </div>
+                            <time>14. júla 2019, 23:00</time>
+                        </div>
+                        <img class="article-image" src="http://lorempixel.com/output/fashion-q-c-640-480-1.jpg" alt="Medulienka" />
+                        <p>
+                            Medulienka je moja láska,
+                            sestra srdca môjho belostná,
+                            spievam jej len o sedmikráskach,
+                            pod vankúš jej dávam hviezd plný snár.
+                        </p>  
+                        <textarea id="Napíš mi.=" rows="1" cols="50" placeholder="Napíš mi."></textarea><br />
+                        <input type="submit" class="btn btn-secondary btn-sm" value="submit" />
+                        <select name="paci sa" class="btn btn-outline-dark" id="paci">
+                            <option value="páči sa mi">páči sa mi</option>
+                            <option value="nepáči sa mi">nepáči sa mi</option>
+                            <option value="nevolaj mi">nevolaj mi</option>
+                        </select>
+                    </article>
+            </section>
+
+        </main>
+        
+        <aside>
+                <h3>Priatelia</h3>
+                <ul>
+                    <li>
+                        <div class="user-info">
+                            <img class="avatar" src="http://lorempixel.com/output/abstract-q-c-640-480-3.jpg" alt="Martin Prekop avatar" height="42" width="42" />
+                            <span class="username">Martina Prekop</span>
+                        </div>
+                        <div class="status online"></div>
+                    </li>
+                    <li>
+                        <div class="user-info">
+                            <img class="avatar" src="http://lorempixel.com/output/nature-q-c-640-480-2.jpg" alt="Angelika Sikovna avatar" height="42" width="42" />
+                            <span class="username">Angelika Šikovná</span>
+                        </div>
+                        <div class="status online"></div>
+                    </li>
+                    <li>
+                        <div class="user-info">
+                            <img class="avatar" src="http://lorempixel.com/output/people-q-c-640-480-6.jpg" alt="Anicka avatar" height="42" width="42" />
+                            <span class="username">Anička</span>
+                        </div>
+                        <div class="status online"></div>
+                    </li>
+                    <li>
+                        <div class="user-info">
+                            <img class="avatar" src="http://lorempixel.com/output/fashion-q-c-640-480-9.jpg" alt="Mariana avatar" height="42" width="42" />
+                            <span class="username">Mariana neznáma</span>
+                        </div>
+                        <div class="status online"></div>
+                    </li>
+                    <li>
+                        <div class="user-info">
+                            <img class="avatar" src="http://lorempixel.com/output/abstract-q-c-640-480-6.jpg" alt="Medulienka avatar" height="42" width="42" />
+                            <span class="username">Medulienka</span>
+                        </div>
+                        <div class="status offline"></div>
+                    </li>
+                    <li>
+                        <div class="user-info">
+                            <img class="avatar" src="http://lorempixel.com/output/people-q-c-640-480-9.jpg" alt="Klaudia Nadherna avatar" height="42" width="42" />
+                            <span class="username">Klaudia Nádherná</span>
+                        </div>
+                        <div class="status online"></div>
+                    </li>
+                    <li>
+                        <div class="user-info">
+                            <img class="avatar" src="http://lorempixel.com/output/transport-q-c-640-480-10.jpg" alt="Peter Silny avatar" height="42" width="42" />
+                            <span class="username">Peter Silný</span>
+                        </div>
+                        <div class="status offline"></div>
+                    </li>
+                </ul>
+
+                <div class="column"/>
+                <div class="card">
+                    <div class="card-header bg-secondary text-light">Využite ponuku.</div>
+                    <img class="card-img-top"    
+                    src="http://lorempixel.com/output/food-q-c-640-480-3.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Reštaurácia Marieta</h5>
+                        <p class="card-text">
+                                Srdečne Vás pozývame do útulného prostredia Reštaurácie Marieta 
+                                v Bratislave. Leto je najfarebnejšie obdobie v roku a rovnako 
+                                farebne to vyzerá aj v našom letnom menu. Jedlá hýria farbami 
+                                a potešia tak nielen vaše chuťové poháriky, ale aj vaše oči. 
+                                Príďte ochutnať letné pochúťky, ktoré sme si pre vás pripravili 
+                                v našej reštaurácii. Neváhajte a rezervujte si stôl ešte dnes. </p>
+                            <a href="#go" class="btn btn-secondary">Rezervuj!</a>
+                        </div>
+                        <div class="card-footertext">Uverejnené 22.06.2019</div>
+                    </div>
+
+            </aside>
+    </div>
+
+    <footer>
+        <small>&copy; 2019 Bridge Consulting</small>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+    </footer>
+</body>    
+</html> 

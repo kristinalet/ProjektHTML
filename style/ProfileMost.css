@@ -100,9 +100,8 @@ aside {
 .avatar {
   border-radius: 1.5rem;
   padding-top: 0rem;
-  margin-top: 0.5rem; 
-  margin-right: 1rem;
-  margin-left: 2rem;
+  margin-top: 0.1rem; 
+  margin-right: 0.5rem;
 }
 
 .status {
@@ -116,7 +115,7 @@ aside {
 .status.online {
   background: green;
   justify-content: flex-end;
-  margin-left: 20rem;
+  margin-left: 25rem;
 }
 
 .card-header {
@@ -124,7 +123,7 @@ aside {
 }
 
 .card-footertext {
-  padding-left: 40rem;
+  padding-left: 33rem;
   opacity: 0.7;
   font-size: 15px;
 }
